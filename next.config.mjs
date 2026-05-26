@@ -6,6 +6,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  output: 'export', // Enables static export
+  basePath: '/website/docs', // Replaces with your repo name
 }
 
 export default nextConfig
